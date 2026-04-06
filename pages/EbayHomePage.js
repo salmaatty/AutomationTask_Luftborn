@@ -26,6 +26,6 @@ export class EbayPage {
 
     async filter(filterentry) {
         await this.page.locator(`input.checkbox__control[aria-label="${filterentry}"]`).click();
-        await page.waitForTimeout(3000);
+        
     }
 }
