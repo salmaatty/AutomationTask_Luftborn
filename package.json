@@ -1,0 +1,18 @@
+{
+  "name": "luftborn_task",
+  "version": "1.0.0",
+  "description": "An automated test framework for eBay website testing using Playwright.",
+  "main": "EbayHomePage.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1"
+  }
+}
